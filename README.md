@@ -72,3 +72,5 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
 Bora pra cima!
+
+Clique <a href="/trilha-html-modulo-2/template.html">Aqui</a>
