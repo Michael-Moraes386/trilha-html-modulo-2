@@ -19,9 +19,9 @@ body {
     width: 85%;
 }
 .menu {
-    width: 30%;
+    width: 20%;
     background-color: rgb(48, 205, 216);
-    padding: 10px 20px 25px;
+    padding: 10px 20px 0px;
 }
 .header {
     background-color:limegreen;
