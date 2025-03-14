@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetLandia - Formulário para Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><strong><a href="template.html">Pagina Inicial</a></strong></li>
+            </ul>
+            <ul>
+                <li><a href="Sobre.html">Sobre a clinica</a></li><br>
+                <li><a href="serviços.html">Serviços mais importantes</a></li><br>
+                <li><a href="funcionamento.html">Horário de Atendimento</a></li><br>                
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://static.vecteezy.com/system/resources/previews/017/352/346/original/illustration-of-the-logo-of-a-veterinary-clinic-vector.jpg" width="75">
+                <h1>PetLandia</h1>
+                <h2><i><blockquote>Onde o amor pelos animais encontra a saúde!</blockquote></i></h2>
+            </div>
+    
+            <div class="content">
+                <form onsubmit="alert('Atendimento agendado com Sucesso')">
+                    <h1>Preencha o Formulário</h1>
+                    <fieldset>
+                        <legend>Dados do Tutor:</legend>
+                            <label>Nome: </label><input type="text">
+                            <label>Telefone: </label><input type="tel">
+                            <label>E-mail: </label><input type="email"><br>
+                            <label>Endereço: </label><input type="text">
+                            <label>Logradouro: </label><input type="text">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Dados do Pet:</legend>
+                            <label>Nome: </label><input type="text"><br>
+                            <label>Idade: </label><input type="number"><label>Anos</label><br>
+                            <label>Peso: </label><input type="number" min="0"><label>KGs</label><br>
+                            <label>Pelagem: </label><input type="text"><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Serviço a solicitar:</legend>
+                            <select name="role">
+                                <option value="">Selecione o Atendimento</option>
+                                <option value="Consultas Veterinárias">Consultas Veterinárias</option>
+                                <option value="Vacinação e Vermifugação">Vacinação e Vermifugação</option>
+                                <option value="Exames Clínicos e Laboratoriais">Exames Clínicos e Laboratoriais</option>
+                                <option value="Cirurgias">Cirurgias</option>
+                                <option value="Atendimento de Urgência">Atendimento de Urgência</option>
+                                <option value="Banho e Tosa">Banho e Tosa</option>
+                                <option value="Adestramento e Comportamento">Adestramento e Comportamento</option>
+                                <option value="Adoção Responsável">Adoção Responsável</option>
+                                <option value="Serviços de Hotel e Day Care">Serviços de Hotel e Day Care</option>
+                           </select>
+                           <label>Data: </label><input type="date">
+                           <label>Escolha a hora: </label><input type="time">
+                    </fieldset>
+
+                    <button type="submit">Agendar atendimento</button>
+                </form><br>
+                <img src="https://s3.nuvemvet.com/blog/wp-content/uploads/2022/02/26111743/veterin%C3%A1ria-730x400.jpg" width="950">
+            </div>
+    
+            <div class="footer">
+                <p><blockquote>Ficou alguma dúvida de que somos a clínica veterinária mais completa e competente para o seu grande amiguinho de 4 patas?</blockquote></p><br>
+                <p><blockquote>Venha nos conhecer! Estamos localizados na: <a href="https://maps.app.goo.gl/myUX2uPxCFS5hULGA" title="Venha nos conhecer!" target="_blank" ><u>Rua Benedito Nicolau, 33, São Mateus, Itaperuna - RJ! - 28300-000</u></a>. </blockquote></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
