@@ -73,4 +73,4 @@ Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente p
 
 Bora pra cima!
 
-Clique <a href="/trilha-html-modulo-2/template.html">Aqui</a>
+Venha conferir, Clique <a href="/trilha-html-modulo-2/template.html"><u>Aqui</u></a>
